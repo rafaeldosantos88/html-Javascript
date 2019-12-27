@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula20</title>
+</head>
+<body>
+    
+    <script>
+      const nome = prompt('Digite seu nome completo: ');
+document.body.innerHTML += `O seu <strong>nome</strong> é : ${nome}<br/>`;
+document.body.innerHTML += `Seu nome tem : <strong>${nome.length}</strong> letras<br/>`;
+document.body.innerHTML += `A segunda letra do seu nome é : <strong>${nome[1]}</strong><br/>`;
+document.body.innerHTML += `Qual o primeiro  índice da letra s no seu nome: <strong>${nome.indexOf('s')}</strong><br/>`;
+document.body.innerHTML += `Qual o primeiro  índice da letra s no seu nome: <strong>${nome.lastIndexOf('s')}</strong><br/>`;
+document.body.innerHTML += `As ultima três letras do seu nome : <strong>${nome.slice(-3)}</strong><br/>`;
+document.body.innerHTML += `As palavras do seu nome : <strong>${nome.split(' ')}</strong><br/>`;    
+document.body.innerHTML += `Seu nome com letras Maiúsculas: <strong>${nome.toLocaleUpperCase()}</strong><br/>`; 
+document.body.innerHTML += `Seu nome com letras Minúsculas: <strong>${nome.toLocaleLowerCase()}</strong><br/>`; 
+        </script>
+    
+</body>
+</html>
